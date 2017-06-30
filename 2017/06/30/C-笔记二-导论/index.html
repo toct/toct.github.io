@@ -4,24 +4,24 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>hexo+github 总结 | liguibin‘s blog</title>
+    <title>C++笔记二:导论 | liguibin‘s blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="liguibin">
     
 
     
-    <meta name="description" content="最近求职，发现很多公司要求提供自己的技术博客，可能是有博客的人都是大牛，所以为了步入大牛行列，面子工程是要做一做的。据说长期写博客 记录工作，学习，能够让你的文笔更好，学的更快，记得更牢，真的这么神奇么？我决定先坚持一年，亲身体验一下。 对于如我一样没有安全感的人，自己的东西都要带在身上，看的见摸的着，心理才踏实，hexo+github这种形式写博客是一个不错的选择，hexo一款基于Node.js">
+    <meta name="description" content="拷贝思绪">
 <meta name="keywords" content="全部">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo+github 总结">
-<meta property="og:url" content="http://yoursite.com/2017/04/14/hexo-github-总结/index.html">
+<meta property="og:title" content="C++笔记二:导论">
+<meta property="og:url" content="http://yoursite.com/2017/06/30/C-笔记二-导论/index.html">
 <meta property="og:site_name" content="liguibin‘s blog">
-<meta property="og:description" content="最近求职，发现很多公司要求提供自己的技术博客，可能是有博客的人都是大牛，所以为了步入大牛行列，面子工程是要做一做的。据说长期写博客 记录工作，学习，能够让你的文笔更好，学的更快，记得更牢，真的这么神奇么？我决定先坚持一年，亲身体验一下。 对于如我一样没有安全感的人，自己的东西都要带在身上，看的见摸的着，心理才踏实，hexo+github这种形式写博客是一个不错的选择，hexo一款基于Node.js">
-<meta property="og:updated_time" content="2017-04-14T09:05:22.000Z">
+<meta property="og:description" content="拷贝思绪">
+<meta property="og:updated_time" content="2017-06-30T15:55:59.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo+github 总结">
-<meta name="twitter:description" content="最近求职，发现很多公司要求提供自己的技术博客，可能是有博客的人都是大牛，所以为了步入大牛行列，面子工程是要做一做的。据说长期写博客 记录工作，学习，能够让你的文笔更好，学的更快，记得更牢，真的这么神奇么？我决定先坚持一年，亲身体验一下。 对于如我一样没有安全感的人，自己的东西都要带在身上，看的见摸的着，心理才踏实，hexo+github这种形式写博客是一个不错的选择，hexo一款基于Node.js">
+<meta name="twitter:title" content="C++笔记二:导论">
+<meta name="twitter:description" content="拷贝思绪">
 
     
     <link rel="alternative" href="atom.xml" title="liguibin‘s blog" type="application/atom+xml">
@@ -81,14 +81,14 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2017/04/14/hexo-github-总结/" title="hexo+github 总结" itemprop="url">hexo+github 总结</a>
+      <a href="/2017/06/30/C-笔记二-导论/" title="C++笔记二:导论" itemprop="url">C++笔记二:导论</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="liguibin" target="_blank" itemprop="author">liguibin</a>
 		
   <p class="article-time">
-    <time datetime="2017-04-14T05:51:26.000Z" itemprop="datePublished"> 发表于 2017-04-14</time>
+    <time datetime="2017-06-30T15:55:01.000Z" itemprop="datePublished"> 发表于 2017-06-30</time>
     
   </p>
 </header>
@@ -97,40 +97,18 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#配置环境"><span class="toc-number">1.1.</span> <span class="toc-text">配置环境</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装Hexo"><span class="toc-number">1.2.</span> <span class="toc-text">安装Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置Github"><span class="toc-number">1.3.</span> <span class="toc-text">配置Github</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更换hexo主题"><span class="toc-number">1.4.</span> <span class="toc-text">更换hexo主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加-tags-amp-categories"><span class="toc-number">1.5.</span> <span class="toc-text">添加 tags & categories</span></a></li></ol></li></ol>
+			
 		
 		</div>
 		
-		<p>最近求职，发现很多公司要求提供自己的技术博客，可能是有博客的人都是大牛，所以为了步入大牛行列，面子工程是要做一做的。据说长期写博客 记录工作，学习，能够让你的文笔更好，学的更快，记得更牢，真的这么神奇么？我决定先坚持一年，亲身体验一下。</p>
-<p>对于如我一样没有安全感的人，自己的东西都要带在身上，看的见摸的着，心理才踏实，hexo+github这种形式写博客是一个不错的选择，hexo一款基于Node.js静态博客，在本地生成静态网页，在github上创建一个repository来托管这些网页，下面上干货：</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h3><hr>
-<pre><code>使用工具 MACBook(版本：10.12.4) 
-Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境，Node.js 的包管理器 是npm
-</code></pre><p>在安装hexo期间会用到很多以npm开头的命令，去<a href="http://nodejs.cn" target="_blank" rel="external">Node</a>网站下载最新版本，一路傻瓜式安装。</p>
-<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><pre><code>这是一个快捷，简单，又非常强大的博客框架。
-创建一个文件夹,如hexo,用户存放hexo的配置文件，终端cd到hexo目录下面
-</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">安装Hexo：sudo npm install -g hexo</div><div class="line">初始化：hexo init    用来恢复hexo最初设置</div><div class="line">生成静态页面：hexo generate（hexo g也可以）</div><div class="line">启动hexo本地服务：hexo server</div></pre></td></tr></table></figure>
-<pre><code>应该可以看到页面上有一篇hello world 的文章，说明 你hexo安装成功了 
-</code></pre><h3 id="配置Github"><a href="#配置Github" class="headerlink" title="配置Github"></a>配置Github</h3><p>申请GitHub 用来托管你的静态网页<br>建立Repository<br>建立与你用户名对应的仓库，仓库名必须为【your_user_name.github.io】，固定写法<br>打开hexo配置文件  vim _config.yml 翻到最下面，改成我这样子的<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">    <span class="built_in">type</span>: git</div><div class="line">        repo: https://github.com/leopardpan/leopardpan.github.io.git</div></pre></td></tr></table></figure></p>
-<p>有的博文上说修改成：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">    <span class="built_in">type</span>: git</div><div class="line">        repo: https://github.com/leopardpan/leopardpan.github.io.git</div><div class="line">    branch: master</div></pre></td></tr></table></figure></p>
-<p>但是我亲身实验，会有错误抛出<br>执行命令：npm install hexo-deployer-git –save<br>然后上传到github上：hexo deploy<br>常用命令：hexo n “我的博客” == hexo new “我的博客” #新建文章<br>                  hexo p == hexo publish<br>                  hexo g == hexo generate#生成<br>                  hexo s == hexo server #启动服务预览<br>                  hexo d == hexo deploy#部署</p>
-<h3 id="更换hexo主题"><a href="#更换hexo主题" class="headerlink" title="更换hexo主题"></a>更换hexo主题</h3><hr>
-<p>网上有各种样式的已经写好hexo主题，我选的是Kiddochan 大家也可以选择去<a href="https://hexo.io/themes/" target="_blank" rel="external">hexo</a>选择中意的主题</p>
-<p>cd到hexo目录下执行拷贝命令：git clone <a href="https://github.com/hsihohuang/kiddochan.git" target="_blank" rel="external">https://github.com/hsihohuang/kiddochan.git</a> themes/Kiddochan<br>也可以直接去github上下载其它的主题拷贝到hexo／themes 下</p>
-<p>然后vim _config.yml 修改主题名字为你选择的主题名字：theme: Kiddochan<br>然后保存退出</p>
-<p>部署：npm install hexo-deployer-git –save<br>然后发布：hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p>
-<h3 id="添加-tags-amp-categories"><a href="#添加-tags-amp-categories" class="headerlink" title="添加 tags &amp; categories"></a>添加 tags &amp; categories</h3><hr>
-<p>创建文章 hexo new “xxx” 会使用到模版post.md<br>下面修改模版 hexo/scaffols/post.md<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">title: &#123;&#123; title &#125;&#125;</div><div class="line">date: &#123;&#123; date &#125;&#125;</div><div class="line">tags: [全部]</div><div class="line">categories: 杂项</div></pre></td></tr></table></figure></p>
-<p>在新的文章中可以修改tags标签及categories分类 不用手动添加 tags &amp; categories 选项,使用xcode来编写文章就挺方便</p>
-<p>参考文章：<br><a href="http://www.jianshu.com/p/465830080ea9" target="_blank" rel="external">http://www.jianshu.com/p/465830080ea9</a><br><a href="http://www.jianshu.com/p/1fb65c61fa4a" target="_blank" rel="external">http://www.jianshu.com/p/1fb65c61fa4a</a></p>
-  
+		  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
 <div class="article-categories">
   <span></span>
-  <a class="article-category-link" href="/categories/杂项/">杂项</a>
+  <a class="article-category-link" href="/categories/C/">C++</a>
 </div>
 
 
@@ -151,16 +129,16 @@ Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境，Node.js �
 <nav class="article-nav clearfix">
  
  <div class="prev" >
- <a href="/2017/04/14/hello-world/" title="Hello World">
+ <a href="/2017/04/26/C-笔记一：选一本合适的书/" title="C++ 笔记一：选一本合适的书">
   <span>
-  Hello World</span>
+  C++ 笔记一：选一本合适的书</span>
 </a>
 </div>
 
 
 <div class="next">
-<a href="/2017/04/26/C-笔记一：选一本合适的书/"  title="C++ 笔记一：选一本合适的书">
- <span>C++ 笔记一：选一本合适的书
+<a href="/2017/07/01/关于程序、线程、runloop和releasepool/"  title="关于程序、线程、runloop和releasepool">
+ <span>关于程序、线程、runloop和releasepool
 </span>
 </a>
 </div>
