@@ -11,17 +11,17 @@
     
 
     
-    <meta name="description" content="拷贝思绪">
+    <meta name="description" content="源起二战期间，第一台计算机用来计算导弹轨道，当时的初代程序员用机器语言(不说人话)，与计算机交流，让计算机为人工作。提高导弹轨道的计算速度，使得从导弹发射，到导弹落地的时间段内，能准确的获得导弹轨迹，从而拦截导弹，高科技从来都是从军事到民用-_-。 两种不同的翻译方式(解释器、编译器)计算机根据计算机指令(机器语言)行事，不久发明汇编语音，将指令变为可理解和可管理的。程序是指为了让计算机做一件事，">
 <meta name="keywords" content="全部">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C++笔记二:导论">
 <meta property="og:url" content="http://yoursite.com/2017/06/30/C-笔记二-导论/index.html">
 <meta property="og:site_name" content="liguibin‘s blog">
-<meta property="og:description" content="拷贝思绪">
-<meta property="og:updated_time" content="2017-06-30T15:55:59.000Z">
+<meta property="og:description" content="源起二战期间，第一台计算机用来计算导弹轨道，当时的初代程序员用机器语言(不说人话)，与计算机交流，让计算机为人工作。提高导弹轨道的计算速度，使得从导弹发射，到导弹落地的时间段内，能准确的获得导弹轨迹，从而拦截导弹，高科技从来都是从军事到民用-_-。 两种不同的翻译方式(解释器、编译器)计算机根据计算机指令(机器语言)行事，不久发明汇编语音，将指令变为可理解和可管理的。程序是指为了让计算机做一件事，">
+<meta property="og:updated_time" content="2017-07-13T13:55:07.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C++笔记二:导论">
-<meta name="twitter:description" content="拷贝思绪">
+<meta name="twitter:description" content="源起二战期间，第一台计算机用来计算导弹轨道，当时的初代程序员用机器语言(不说人话)，与计算机交流，让计算机为人工作。提高导弹轨道的计算速度，使得从导弹发射，到导弹落地的时间段内，能准确的获得导弹轨迹，从而拦截导弹，高科技从来都是从军事到民用-_-。 两种不同的翻译方式(解释器、编译器)计算机根据计算机指令(机器语言)行事，不久发明汇编语音，将指令变为可理解和可管理的。程序是指为了让计算机做一件事，">
 
     
     <link rel="alternative" href="atom.xml" title="liguibin‘s blog" type="application/atom+xml">
@@ -97,11 +97,15 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#源起"><span class="toc-number">1.</span> <span class="toc-text">源起</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#两种不同的翻译方式-解释器、编译器"><span class="toc-number">2.</span> <span class="toc-text">两种不同的翻译方式(解释器、编译器)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三种编程方式-过程化、结构化、面向对象"><span class="toc-number">3.</span> <span class="toc-text">三种编程方式(过程化、结构化、面向对象)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#面向对象"><span class="toc-number">4.</span> <span class="toc-text">面向对象</span></a></li></ol>
 		
 		</div>
 		
-		  
+		<h2 id="源起"><a href="#源起" class="headerlink" title="源起"></a>源起</h2><p>二战期间，第一台计算机用来计算导弹轨道，当时的初代程序员用机器语言(不说人话)，与计算机交流，让计算机为人工作。提高导弹轨道的计算速度，使得从导弹发射，到导弹落地的时间段内，能准确的获得导弹轨迹，从而拦截导弹，高科技从来都是从军事到民用-_-。</p>
+<h2 id="两种不同的翻译方式-解释器、编译器"><a href="#两种不同的翻译方式-解释器、编译器" class="headerlink" title="两种不同的翻译方式(解释器、编译器)"></a>两种不同的翻译方式(解释器、编译器)</h2><p>计算机根据计算机指令(机器语言)行事，不久发明汇编语音，将指令变为可理解和可管理的。<br>程序是指为了让计算机做一件事，很多条指令的执行的先后顺序(precise instructions and rules)<br>做的事儿越复杂，需要的指令越多，程序员录入指令的工作量越多，为了减少程序员的工作量，提高效率，程序员先辈们发明了高级语言(c,c++,java etc)，为了使计算机理解高级语言，要使用解释器和编译器，翻译为机器可理解的低级语言。<br>解释器:Visual Basic的运行库，java的虚拟机(Virtual Machine)，编写程序时，将一条条高级语言翻译成指令。<br>编译器:将代码转换成目标文件，然后连接器将文件转化为可执行指令或者代码。程序需要编译的时候运行速度较慢，其他时候速度很快，如运行Xcode的时候感觉明显;</p>
+<h2 id="三种编程方式-过程化、结构化、面向对象"><a href="#三种编程方式-过程化、结构化、面向对象" class="headerlink" title="三种编程方式(过程化、结构化、面向对象)"></a>三种编程方式(过程化、结构化、面向对象)</h2><p>过程化：任务分解为步骤，一步一步完成，不能跳跃<br>结构化：任务可以分解成为一个一个的小结构，小结构可以继续分解，直到结构容易被代码描述为止。<br>面向对象：任务可以理解为对象和对象行为，对象可以分解为更小的对象和对象行为，直到一些对象容易被代码抽象为某一类，通过面向对象三个特性(封装.继承.多态)提高代码的可读性，复用性，使程序易于维护和拓展。</p>
+<h2 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h2><p>随着编程要解决的问题越来越复杂，编程由过程化到结构化，再到面向对象，</p>
+  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
@@ -191,7 +195,7 @@
 		  
 		
 		  
-			<li><a href="/categories/OC/" title="OC">OC<sup>1</sup></a></li>
+			<li><a href="/categories/OC/" title="OC">OC<sup>2</sup></a></li>
 		  
 		
 		  
@@ -208,7 +212,7 @@
 		<ul class="clearfix">
 		
 			
-				<li><a href="/tags/全部/" title="全部">全部<sup>4</sup></a></li>
+				<li><a href="/tags/全部/" title="全部">全部<sup>5</sup></a></li>
 			
 		
 		</ul>
